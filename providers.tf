@@ -19,13 +19,6 @@ provider "azurerm" {
 }
 
 provider "azurerm" {
-  alias           = "sub1"
-  subscription_id = "1d076abb-d20d-4b36-8b57-169c24fddf99"
-
-  features {}
-}
-
-provider "azurerm" {
   alias           = "sub2"
   subscription_id = "e636dec9-9670-4ef1-ae65-8b9bbfb73f6d"
 
