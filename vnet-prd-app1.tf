@@ -1,7 +1,7 @@
 module "vnet-prd-app1" {
   source = "./azure-nsgac"
   providers = {
-    azurerm = azurerm.sub2
+    azurerm = azurerm.subscription_name
   }
 
   # VNet description

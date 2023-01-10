@@ -19,8 +19,8 @@ provider "azurerm" {
 }
 
 provider "azurerm" {
-  alias           = "sub2"
-  subscription_id = "e636dec9-9670-4ef1-ae65-8b9bbfb73f6d"
+  alias           = "subscription_name"
+  subscription_id = "e636dec9-9670-4ef1-ae65-8b9bbfb73f6d" # This is an example
 
   features {}
 }
