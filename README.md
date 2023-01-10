@@ -27,8 +27,7 @@ Table of content:
   - [How to onboard a VNet with NSGaC ?](#how-to-onboard-a-vnet-with-nsgac-)
   - [What are possible values for `src`, `dst`, `protocol` and `port` fields in a security rule  ?](#what-are-possible-values-for-src-dst-protocol-and-port-fields-in-a-security-rule--)
   - [How to enforce NSG Flow logs with NSGaC ?](#how-to-enforce-nsg-flow-logs-with-nsgac-)
-- [TODO](#todo)
-- [Authors](#authors)
+- [Aknowledgment](#aknowledgment)
 
 
 ## Deployment model 
@@ -369,10 +368,7 @@ Optional parameters: `excluded_subnets_nsg`, `default_inbound_rules` and `defaul
 
 NSG Flow logs is not supported by NSGaC. We recommend to leverage [Azure Policy](https://learn.microsoft.com/en-us/azure/network-watcher/nsg-flow-logs-policy-portal) to deploy automatically NSG Flow Logs on all NSGs.
 
-# TODO
+# Aknowledgment
 
-* Share azure-nsgac as a TF module ? Discuss with Vincent !
-
-# Authors
-
-David Santiago & Vincent Misson
+Thanks to the following people for their contribution:
+* [Vincent Misson](https://github.com/vmisson)
