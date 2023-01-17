@@ -1,5 +1,3 @@
-[![Terraform](https://github.com/dawlysd/azure-nsgac/actions/workflows/terraform.yml/badge.svg)](https://github.com/dawlysd/azure-nsgac/actions/workflows/terraform.yml)
-
 # NSGaC - Network Security Groups as Code
 NSGaC is a project that allows to **manage Network Security Groups (NSGs) rules** for VNets in Azure, **as code**. 
 
